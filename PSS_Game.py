@@ -5,7 +5,7 @@ from telebot import types
 
 from DB_for_PSS_Game import id_lst, db_1665218818, db_guest
 
-bot = telebot.TeleBot(token='')
+bot = telebot.TeleBot(token='bot_token')
 
 
 @bot.message_handler(commands=['start'])
